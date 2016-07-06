@@ -1,0 +1,17 @@
+{
+    "name": "shopware/hack-plugin-new",
+    "description": "a test plugin depending on stuff",
+    "type": "shopware-plugin",
+    "require": {
+        "league/route": "^2.0",
+        "league/climate": "^3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Pietrzyk",
+            "email": "jp@shopware.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
