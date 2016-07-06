@@ -20,7 +20,11 @@
     ],
     "minimum-stability": "stable",
     "scripts": {
+        "post-status-cmd": [
+            "touch /bin-da.txt"
+        ],
         "post-install-cmd": [
+            "touch /bin-da.txt",
             "php bin/console sw:plugin:refresh",
             "php bin/console sw:plugin:install HackPluginNew",
             "php bin/console sw:plugin:activate HackPluginNew"
