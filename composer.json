@@ -1,7 +1,12 @@
 {
-    "name": "shopware/hack-plugin-new",
+    "name": "ShopwareHackathon/composer-plugin-new",
     "description": "a test plugin depending on stuff",
     "type": "shopware-plugin",
+    "autoload": {
+        "psr-4": {
+            "HackPluginNew\\": ""
+        }
+    },
     "require": {
         "league/route": "^2.0",
         "league/climate": "^3.2"
